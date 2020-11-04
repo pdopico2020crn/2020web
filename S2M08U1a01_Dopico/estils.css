@@ -1,0 +1,126 @@
+body{
+  background-color: #ccf;
+  margin: 0;
+  font-family: Arial;
+}
+
+div{
+  background-color: #cff;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+h1, p{
+  width: 350px;
+  padding: 25px;
+  background-color: pink;
+
+}
+h1{
+  margin: 0;
+
+}
+p{
+  padding: 0 25px;
+  margin: 0
+}
+a{
+  text-decoration: none;
+}
+
+#primera{
+  height: 40px;
+}
+
+li{
+  display: inline-block;
+  margin: 0 20px;
+  background-color: yellow;
+  line-height: 40px;
+  margin: 0;
+  padding: 5;
+  height: 30px:
+}
+
+li:hover{
+  background-color:orange;
+}
+
+#segona{
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+
+}
+
+#tercera{
+  height: 641px;
+  background-image:url(img/allinone.jpg);
+
+}
+
+#quarta{
+  height: 500px;
+  background-image:url(img/curator-short.png);
+
+}
+
+#quinta{
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+
+}
+
+#sexta{
+  height: 550px;
+    background-image:url(img/mobile-share.png);
+}
+#septima{
+  height: 643px;
+  background-image:url(img/anywhere.png);
+}
+
+#octaba{
+  height: 200px;
+  text-align: center;
+}
+
+#boto{
+/*---DIMENSIONS---*/
+  height: 80px;
+  width: 80px;
+/*---POSICIONAMENT---*/
+  position: fixed;
+  bottom: 50px;
+  right:100px;
+/*---TEXT---*/
+  text-align: center;
+  line-height: 90px;
+  font-size: 62px;
+  color: white;
+/*---CAIXA---*/
+  border-radius: 35px;
+  box-shadow: 2px 2px 5px black;
+
+  background: url(img/sources.png);
+  background-position: -220px -5px;
+}
+
+img{
+  padding: 25px;
+}
+.blanc{
+  background-color: #fff;
+}
+
+.verd{
+  background-color: #6c3;
+}
+
+.fosc{
+  background-color: #333;
+}
+
+.clara{
+  background-color: #eeecee;
+}
