@@ -1,0 +1,77 @@
+/* Cuerpo en si */
+body{
+  background-color: ;
+}
+p {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  background-color:red;
+  float: left;
+}
+b{
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: radial-gradient(#c9f, black);
+  background-size: 200% 200%;
+  background-position: -50px -50px;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+
+/* Class e id */
+.fondo{
+  background-color: #bdb78b;
+  height:800px;
+  width:800px;
+  margin: 0 auto;
+  background-image: linear-gradient(, blue 0%,turquoise 10%);
+  padding: 20px;
+
+}
+.parell{
+  background-color:white;
+}
+.imparell{
+  background-color:black;
+}
+.imparell b {
+  background-image: radial-gradient(#ffc, black);
+}
+.imparell:nth-child(2n) b {
+  background-image: radial-gradient(#cfc, black);
+}
+
+
+/*
+---Pseudo clases---
+Etiquetes_ Gemerics <div>
+Clases_ Sugrups .impreell
+ID_ Forma unica #reiblanc
+
+--Pseudo clases----> estas dels elements
+  :hover-Quan pasem per sobre
+  :visited-Quan l'em visitat
+  :active- Quan estem fent click
+  :focius- Quan esta selecionat
+  :checjked- Quan esta "chekat"
+
+  :fist-Child-Primer element
+  :last-Child-Ultim element
+  :nth-L'enessim fill ( element nº)
+    n=1
+    n=2
+    n=3
+    ...
+    n=infinit
+
+    p.ex
+    tots els parells:2n
+
+    n-  1 2 3 4 5 6 7 8
+        A B C D E F G J-- B D F J (quedaria)
+
+
+*/
