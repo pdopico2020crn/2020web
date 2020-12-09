@@ -1,0 +1,59 @@
+/*---General---*/
+body{
+  background-color: #222;
+  font-family: helvetica sans-serif;
+}
+
+/*---Menu---*/
+li{
+  display: inline-block;
+  }
+
+.menu{
+    opacity: 50%;
+    background-color: #222;
+}
+
+#logo{
+  margin: 0px;
+  padding: 20px;
+  padding: inherit;
+}
+
+a{
+  color: #ccc;
+}
+/*---cos tipografia---*/
+h1{
+  color: #fff;
+  font-size: 22px;
+}
+h2{
+  color: #ccc;
+  font-size: 14px;
+}
+h3{
+  color: #ccc;
+  font-size: 11px;
+  float: left;
+}
+
+h4{
+  color: #ccc;
+  font-size: 11px;
+  float:right;
+}
+
+/*---COS CONTENIDO---*/
+#float{
+  float: left;
+  width: 10%;
+}
+
+img:hover{
+ opacity: 50%;
+}
+
+#none{
+  float: none;
+}
